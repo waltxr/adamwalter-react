@@ -51,19 +51,19 @@ p {
 }
 
 @-webkit-keyframes wiggle{
-  0% { left: 0px }
-  50% {left: 5px;}
-  100% {left: 0px;}
+  0% { top: 0px }
+  50% {top: 5px;}
+  100% {top: 0px;}
 }
 @-moz-keyframes wiggle
 {
-  0% { left: 0px }
-  50% {left: 5px;}
-  100% {left: 0px;}
+  0% { top: 0px }
+  50% {top: 5px;}
+  100% {top: 0px;}
 }
 
 @keyframes wiggle{
-	0% { left: 0px }
-	50% {left: 5px;}
-	100% {left: 0px;}
+	0% { top: 0px }
+	50% {top: 5px;}
+	100% {top: 0px;}
 }
