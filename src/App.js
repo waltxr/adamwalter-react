@@ -53,7 +53,7 @@ class Contact extends Component {
           </a>
         </p>
         <p>
-          <a className="links" href="https://s3.amazonaws.com/adamiwalter.com/etc/adam_walter_cv.pdf" target="_blank">
+          <a className="links" href='https://drive.google.com/file/d/1fuVRVzCG_XaMqwLMi5ILx5v6Nh6R6eW9/view?usp=sharing' target="_blank">
             Resume
           </a>
         </p>
