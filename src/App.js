@@ -10,10 +10,10 @@ function App() {
           <Logo />
           <br></br>
           <Contact/>
+          <br></br>
+          <Projects/>
         </Cell>
         <Cell large={6} small={12} className="Right">
-          <Projects/>
-          <br></br>
           <Freelance />
           <br></br>
           <Skills/>
@@ -43,17 +43,17 @@ class Contact extends Component {
           </a>
         </p>
         <p>
-          <a className="links" href="mailto:me@adamiwalter.com?Subject=Hello%20Adam" target="_blank">
+          <a className="links" href="mailto:me@adamiwalter.com?Subject=Hello%20Adam" rel="noopener noreferrer" target="_blank">
             me @ adamiwalter.com
           </a>
         </p>
         <p>
-          <a className="links" href="https://github.com/Waltxr" target="_blank">
+          <a className="links" href="https://github.com/Waltxr" rel="noopener noreferrer" target="_blank">
             Github
           </a>
         </p>
         <p>
-          <a className="links" href='https://drive.google.com/file/d/1fuVRVzCG_XaMqwLMi5ILx5v6Nh6R6eW9/view?usp=sharing' target="_blank">
+          <a className="links" href='https://drive.google.com/file/d/1fuVRVzCG_XaMqwLMi5ILx5v6Nh6R6eW9/view?usp=sharing' rel="noopener noreferrer" target="_blank">
             Resume
           </a>
         </p>
@@ -70,9 +70,9 @@ class Projects extends Component {
       <div className="Content">
         <p>+++++++++++++++++</p>
         <p>Personal Projects:</p>
-        <p>Friend App // <a className="links" href='https://github.com/Waltxr/friend-app-backend' target="_blank">github.com/Waltxr/friend-app-backend</a></p>
-        <p>URL shortener // <a className="links" href='https://github.com/Waltxr/url-shortener-backend' target="_blank">github.com/Waltxr/url-shortener-backend</a></p>
-        <p>SpotShow // <a className="links"href='https://github.com/Waltxr/spotshow-backend' target="_blank">github.com/Waltxr/spotshow-backend</a></p>
+        <p>Friend App // <a className="links" href='https://github.com/Waltxr/friend-app-backend' rel="noopener noreferrer" target="_blank">github.com/Waltxr/friend-app-backend</a></p>
+        <p>URL shortener // <a className="links" href='https://github.com/Waltxr/url-shortener-backend' rel="noopener noreferrer" target="_blank">github.com/Waltxr/url-shortener-backend</a></p>
+        <p>SpotShow // <a className="links"href='https://github.com/Waltxr/spotshow-backend' rel="noopener noreferrer" target="_blank">github.com/Waltxr/spotshow-backend</a></p>
       </div>
     )
   }
@@ -84,9 +84,10 @@ class Freelance extends Component {
     return(
       <div className="Content">
         <p>Freelance Work:</p>
-        <p>Harper Sage // <a className="links" href="https://harpersage.com/" target="_blank">harpersage.com</a></p>
-        <p>Chrome Sparks // <a className="links" href="http://chromesparks.com/" target="_blank">chromesparks.com</a></p>
-        <p>Two Feet // <a className="links" href="http://twofeetmusic.com" target="_blank">twofeet.com</a></p>
+        <p>Grady // <a className="links" href="https://whoinvitedgrady.com/" rel="noopener noreferrer" target="_blank">whoinvitedgrady.com</a></p>
+        <p>Harper Sage // <a className="links" href="https://harpersage.com/" rel="noopener noreferrer" target="_blank">harpersage.com</a></p>
+        <p>Chrome Sparks // <a className="links" href="http://chromesparks.com/" rel="noopener noreferrer" target="_blank">chromesparks.com</a></p>
+        <p>Two Feet // <a className="links" href="http://twofeetmusic.com" rel="noopener noreferrer" target="_blank">twofeet.com</a></p>
       </div>
     )
   }
